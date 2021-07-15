@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+   background-image: url(../img/beach.jpg);
+   background-size: cover;
+   background-position: top;
+   width: 100%;
+   position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: relative;
+}
+
+.content {
+   min-height: 100vh;;
+}
